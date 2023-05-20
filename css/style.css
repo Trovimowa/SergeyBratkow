@@ -1,0 +1,272 @@
+
+.container{
+	max-width: 1210px;
+	margin: 0 auto;
+}
+.container_header{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.nav_item{
+	list-style: none;
+	margin-right:42px;
+
+}
+.nav_list{
+	display:flex;
+}
+.logo{
+	font-family: 'Revalia';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 60px;
+	text-align: center;
+
+	background: linear-gradient(180deg, #9A0C61 99.99%, #FD0000 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+
+.nav_link{
+	text-decoration: none;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.1em;
+	color:black;
+}
+/* вторя часть HOME */
+body{
+	background: linear-gradient(180deg, #BECBE4 0%, rgba(255, 253, 236, 0.99) 73.44%);
+
+}
+.home_tittle{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 79px;
+
+	background: linear-gradient(180deg, #0500FF 50.52%, #040404 99.48%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+
+}
+.home_rightt{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: 0.1em;
+
+	color: #FFFFFF;
+	width: 228.87px;
+	height: 64.54px;
+
+
+	background: #34547A;
+
+
+}
+.home_next{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 164.06%;
+	width:600px;
+	
+/* or 59px */
+
+
+color: #000000;
+
+}
+.container_home{
+	display:flex;
+	justify-content: space-around;
+	padding-top:100px;
+	padding-bottom:100px;
+}
+.img_home{
+	margin-right: 30px;
+}
+.about_tittle{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 38px;
+	text-align: center;
+
+	color:black;
+}
+.about_text{
+	font-family: 'Red Hat Text';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 42px;
+	text-align: center;
+	color:black;
+
+}
+.skill_name{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 164.06%;
+/* or 33px */
+
+
+color: #000000;
+
+}
+.skill_list{
+	list-style:none;
+	margin: 0px;
+	padding: 0px;
+}
+.skill_full{
+	width: 445px;
+	height: 13px;
+	background: #AFAFAF;
+}
+.skill_done1{
+	width:100%;
+	height: 100%;
+	background: #329D36;
+
+}
+.skill_done2{
+	width:95%;
+	height:100%;
+	background: #329D36;
+}
+.skill_done3{
+	width:80%;
+	height:100%;
+	background: #329D36;
+
+}
+.container_about{
+	display:flex;
+	flex-direction:column ;
+	justify-content: centre;
+	padding-top:86px;
+	padding-bottom: 174px;
+}
+
+.about_img{
+	width: 566px;
+	height: 599px;
+}
+.about_content{
+	display:flex;
+	justify-content: space-around;
+	align-items: centre;
+}
+.video_title{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+text-align: center;
+}
+.imframe{
+	display:flex;
+	justify-content: center; 
+}
+.container_video{
+	display: flex;
+	flex-direction: column;  
+	align-items: center;
+	padding: 100px 0px;
+	background: #EEEFF1;
+}
+
+.footer_text{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 25px;
+margin: 0;
+
+
+
+
+
+}
+.footer_item:not(:last-child) {
+	margin-right: 22px;	
+	
+}
+.container_footer{
+	display:flex;
+	justify-content: space-around;
+	color: #FFFFFF;
+	background: #34547A;
+	padding:18px;
+}
+.gallery_list{
+	list-style: none;
+}
+.footer_list{
+	display: flex;
+	list-style: none;
+}
+.footer_title{
+	
+	width: 213px;
+height: 38px;
+margin: 0;
+margin-bottom: 13px;
+
+/* h3 */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 25px;
+
+}
+.img_1{
+	width: 43.75px;
+height: 43.27px;
+
+}
+.btn_up_img{
+	width:50px;
+	height:50px;
+
+}
+.btn_up{
+	position: fixed;
+	top:100;
+	left:100;
+	right:0;
+	bottom:0;
+}
+
+
+
+
+
+
+
+
+
